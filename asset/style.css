@@ -138,31 +138,49 @@ nav a:hover {
 @media (max-width: 768px) {
 
     .cards-container {
-        justify-content: center;
-        gap: 15px;
-        padding: 10px 0;
+        justify-content: center !important;
+        gap: 18px !important;
+        padding: 10px 0 !important;
     }
 
     .card {
-        width: 45%;
-        margin-bottom: 15px;
+        width: 72% !important;     
+        margin: auto !important;
+        padding: 10px !important;
+        box-sizing: border-box !important;
     }
 
     .card img {
         width: 100% !important;
-        height: auto !important;        
-        object-fit: contain !important; 
-        border-radius: 6px;
+        height: 120px !important;     
+        object-fit: cover !important;  
+        object-position: center !important;
+        border-radius: 6px !important;
+        display: block !important;
+    }
+
+    .card h3 {
+        font-size: 15px !important;
+        margin-bottom: 8px !important;
+        text-align: center !important;
+    }
+
+    .card p {
+        font-size: 12px !important;
+        margin-top: 5px !important;
+        text-align: center !important;
     }
 
     .footer-box {
-        padding: 20px;
+        padding: 18px !important;
     }
 
     .footer-box p {
-        width: 90%;
-        margin: auto;
-        text-align: center;
-        font-size: 13px;
+        width: 90% !important;
+        font-size: 13px !important;
+        line-height: 1.6 !important;
+        margin: auto !important;
+        text-align: center !important;
     }
 }
+
